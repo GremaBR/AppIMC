@@ -1,0 +1,48 @@
+:root {
+  --cor-principal: #45FEFE;
+  --cor-fundo: #2E1462;
+  --cor-input: #F6F6F6;
+  --cor-borda-input: #E8E8E8;
+
+  /* Variaveis Texto */
+  --cor-principal-texto: #000000
+  --cor-secundaria-texto: #666666
+  --cor-input-texto: #BDBDBD
+  --font: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    color: var(--cor-principal-texto);
+    border: 1px solid var(--cor-principal);
+}
+
+.ColorOn{
+    font-family: var(--font);
+    background-color: var(--cor-principal);
+}
+
+
+.input {
+  width: 100%;
+  height: 3.125rem;
+  color: var(--cor-input-texto);
+
+  background-color: var(--cor-input);
+  
+  border-color: var(--cor-borda-input);
+  border-radius: 1px;
+}
+
+
+/* 
+    #2e1462 - Azul Escuro (Fundo)
+    #2e1462 - Azul Claro
+*/ 
